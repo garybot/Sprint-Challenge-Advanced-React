@@ -22,7 +22,7 @@ class App extends React.Component {
     }
     return (
       <Players list={this.state.players} />
-      )
+    )
   }
 }
 

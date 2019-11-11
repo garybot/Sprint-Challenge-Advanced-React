@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.player-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: lime;
+}
+
+.player-card {
+  margin: 20px auto;
+  width: 30%;
+  background-color: orange;
+  color: ivory;
+  font-weight: bold;
+  text-align: center;
+}

@@ -12,6 +12,6 @@ test('renders without crashing', () => {
 })
 
 test('Displays h1 with text "Alex Morgan"', () => {
-  const container = rtl.render(<PlayerCard player={data} />);
-  container.getByText('Alex Morgan')
+  const {getByText} = rtl.render(<PlayerCard player={data} />);
+  getByText(/Alex Morgan/i);
 }) 

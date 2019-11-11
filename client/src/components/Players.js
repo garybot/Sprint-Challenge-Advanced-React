@@ -12,7 +12,7 @@ const Players = (props) => {
   })
 
   return (
-    <div>
+    <div className='player-list'>
       {
         players.map((player, index) => <PlayerCard key={index} player={player} />)
       }    
